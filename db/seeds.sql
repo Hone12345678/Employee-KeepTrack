@@ -1,9 +1,13 @@
+-- seeds data into the department db
+
 INSERT INTO departments (dep_name)
 VALUES
 ('Sales'),
 ('Engineering'),
 ('Finance'),
 ('Legal');
+
+-- seeds data into the roles db
 
 INSERT INTO roles (title, salary, department_id)
 VALUES
@@ -20,19 +24,22 @@ VALUES
 ('Lawyer', '70000.00',4),
 ('Paralegal', '50000.00',4);
 
-INSERT INTO employees (first_name, role_id, manager_id)
+
+-- seeds data into the employee db
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-('Lina G', 1, NULL),
-('Bill W',2,1),
-('Tom R',3,1),
-('David Cooper',4, NULL),
-('Laura Palmer',5,4),
-('David Lynch',6,4),
-('Mike Gurera',7, NULL),
-('John Dwyer',8,7),
-('Blixa Bargeld',9,7),
-('Jonas Kahnwald', 10, NULL),
-('Claudia Tiedemann',11,10),
-('Martha Nielsen',12,10);
+('Lina', 'Gad', 1, NULL),
+('Bill', 'Weise', 2, 1),
+('Tom', 'Ross', 3, 1),
+('David', 'Cooper', 4, NULL),
+('Laura', 'Palmer', 5, 4),
+('David', 'Lynch', 6, 4),
+('Mike', 'Gurera', 7, NULL),
+('John', 'Dwyer', 8, 7),
+('Blixa', 'Bargeld', 9, 7),
+('Jonas', 'Kahnwald', 10, NULL),
+('Claudia', 'Tiedemann', 11, 10),
+('Martha', 'Nielsen', 12, 10);
 
 
