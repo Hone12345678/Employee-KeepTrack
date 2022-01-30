@@ -40,13 +40,14 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 
 ## Video Demo
--part 1
+
+-Part 1
 https://watch.screencastify.com/v/gAtwvLnsNLsSAw2TCXFW
 
--part 2
+-Part 2
 https://watch.screencastify.com/v/rhINRjCh0MOKtkaunTW1
 
--part 3
+-Part 3
 https://watch.screencastify.com/v/K8VzI9ALUJrO2dMp84o3
 
 ## Features
