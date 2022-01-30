@@ -25,6 +25,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 - [Description](#description)
 - [Built With](#built-with)
+- [Video Demo](#video-demo)
 - [Deployed Link](#deployed-link)
 - [Features](#features)
 - [Contribution](#contribution)
